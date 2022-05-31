@@ -8,9 +8,14 @@ In this workshop, I assume
 
 ## Before starting
 
-### Installation
+### Installing VS Code
 
-1. Install Node.js version LTS (probably is 16.15.0) [(link)](https://nodejs.org/en/)
+- This step is optional, but I highly recommend downloading and using VS Code. It's a powerful text editor for writing code and it's what I'll be using in the workshop.
+  [(link to download)](https://code.visualstudio.com/)
+
+### Installing npm
+
+1. Install Node.js version LTS (probably is 16.15.0) [(link to download)](https://nodejs.org/en/)
 2. Confirm it's installed by opening your shell and typing `node --version`. It should show the version you installed.
 3. Update npm with `npm install -g npm` (if this gives an error, you may need to use `sudo npm install -g npm`)
 
