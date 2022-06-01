@@ -61,7 +61,7 @@ function App() {
 const ReactionButton = (props) => {
   // Shows passing function prop
   let innerText = "";
-  let buttonClass = "reaction-button"; //TODO: hard to understand? Better to have multiple <button>s?
+  let buttonClass = "reaction-button";
   let onButtonClick = null;
 
   if (props.gameActive === false && props.timerStarted === false) {
@@ -79,7 +79,7 @@ const ReactionButton = (props) => {
   } else if (props.gameActive === false && props.timerStarted === true) {
     // Game's done, show the player their score
     innerText = props.resultTime + " ms";
-    onButtonClick = props.onStartClick; // Can start again
+    onButtonClick = props.onStartClick; // Use this function so the player can start again
   }
 
   return (
