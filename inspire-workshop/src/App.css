@@ -1,18 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* This was added by default by create-react-app, I just left it cause it looks nice */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +10,20 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Below is all the new CSS I added for this project */
+.click-it-now,
+.reaction-button {
+  width: 15rem;
+  height: 15rem;
+  border: none;
+  border-radius: 10%;
+  font-size: 2.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reaction-button {
+  background-color: #61dafb;
+}
+
+.click-it-now {
+  background-color: #ff5a5f;
 }
